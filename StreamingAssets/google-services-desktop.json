@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "911854682052",
+    "firebase_url": "https://history-of-money-default-rtdb.firebaseio.com",
+    "project_id": "history-of-money",
+    "storage_bucket": "history-of-money.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911854682052:android:2ca67690e6d9996514ee91",
+        "android_client_info": {
+          "package_name": "com.doublefelix.clamshells"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911854682052-0lkfgsmu956t6voj23rlqr7uan8f9cc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfK1LVulsqwTy2ycfu0o6YZ8dnK_mFdzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911854682052-0lkfgsmu956t6voj23rlqr7uan8f9cc8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "911854682052-ulhdr5mnutiptv5u4vsv1ls0gu8bru9e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.doublefelix.clamshells"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
