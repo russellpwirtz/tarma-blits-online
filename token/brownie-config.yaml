@@ -1,0 +1,18 @@
+# exclude SafeMath when calculating test coverage
+# https://eth-brownie.readthedocs.io/en/v1.10.3/config.html#exclude_paths
+reports:
+  exclude_contracts:
+    - SafeMath
+networks:
+  ropsten:
+    host: 'https://ropsten.infura.io/v3/5df3825d459f4ecabd3fe056eecb1f0c'
+  mainnet:
+    host: https://mainnet.infura.io/v3/5df3825d459f4ecabd3fe056eecb1f0c
+netowork:
+  default: 'ropsten'
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.5.0 
+compiler:
+  solc:
+    remappings:
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.5.0'
